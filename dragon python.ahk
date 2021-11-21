@@ -147,18 +147,12 @@ DMnu.Add(105, "save","SomeCategory","SomeDescription", "{ctrl down}{s}{ctrl up}"
 
 
 ;text manipulation
-DMnu.Add(105, "kill","SomeCategory","SomeDescription", "{delete}",0)
-DMnu.Add(105, "kill down","SomeCategory","SomeDescription", "{delete 20}",0)
-DMnu.Add(105, "kill down down","SomeCategory","SomeDescription", "{delete 50}",0)
-DMnu.Add(105, "kill up","SomeCategory","SomeDescription", "{backspace 20}",0)
-DMnu.Add(105, "kill up up","SomeCategory","SomeDescription", "{backspace 50}",0)
+ce 50}",0)
 DMnu.Add(105, "rub","SomeCategory","SomeDescription", "{backspace}",0)
-DMnu.Add(105, "one kill","SomeCategory","SomeDescription", "{ctrl down}{delete}{ctrl up}",0)
-DMnu.Add(105, "two kill","SomeCategory","SomeDescription", "{ctrl down}{delete}{delete}{ctrl up}",0)
 DMnu.Add(105, "one rub","SomeCategory","SomeDescription", "{ctrl down}{backspace}{ctrl up}",0)
 DMnu.Add(105, "two rub","SomeCategory","SomeDescription", "{ctrl down}{backspace}{backspace}{ctrl up}",0)
 
-DMnu.Add(105, "Washer hollering","SomeCategory","SomeDescription", "demo chinese language I'm a good person",0)
+
 
 
 ComObjConnect(DVC, "On_")
